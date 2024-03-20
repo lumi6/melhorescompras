@@ -1,7 +1,3 @@
--- As entidades selecionadas e realizadas pelo grupo são: 
--- 'T_MC_PRODUTO' e 'T_MC_FACTURACAO'. 
--- As entidades mostradas têm relação com a entidade de faturação e podem ser criadas com base nessa relação.
-
 DROP TABLE t_mc_cliente CASCADE CONSTRAINTS;
 
 DROP TABLE t_mc_produto CASCADE CONSTRAINTS;
