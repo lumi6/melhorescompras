@@ -1,0 +1,20 @@
+### Instruções para a execução dos scripts no GitHub
+
+1. Executar o arquivo `apaga.sql` primeiro:
+   - Este arquivo se encarregará de eliminar as tabelas que possivelmente tenham o mesmo nome que as novas tabelas que serão criadas.
+   - Dessa forma, garante-se que não haja conflitos de nomes no gerenciador de banco de dados.
+   - Este script deve ser executado no SQL Server Developer da Oracle para criar o banco de dados.
+
+2. Executar o arquivo `cria.sql` em segundo lugar:
+   - Este script criará as novas tabelas no banco de dados.
+   - Além disso, ele estabelece todas as restrições necessárias para as tabelas.
+
+3. Executar o arquivo `mc_alicota.sql` em terceiro lugar:
+   - Este arquivo contém funções importantes que serão utilizadas para a correta execução dos scripts posteriores.
+   - Certifique-se de que essas funções estejam criadas antes de continuar.
+
+4. Executar o arquivo `1_3_Script_B.sql` em quarto lugar:
+   - Aqui se encontra o cursor criado e a solução para o requisito.
+   - Este script realiza a gestão de dados e as inserções condicionais necessárias de acordo com o problema apresentado.
+
+Certifique-se de seguir a ordem indicada para evitar erros e garantir a correta configuração e execução dos scripts no seu banco de dados. \
