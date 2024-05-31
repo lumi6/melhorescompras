@@ -1,4 +1,4 @@
-### Instruções para a execução dos scripts no GitHub
+Instruções para a execução dos scripts no GitHub
 
 1. Executar o arquivo `apaga.sql` primeiro:
    - Este arquivo se encarregará de eliminar as tabelas que possivelmente tenham o mesmo nome que as novas tabelas que serão criadas.
